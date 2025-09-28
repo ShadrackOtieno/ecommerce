@@ -50,7 +50,7 @@ class BrandResource extends Resource
 
                             Forms\Components\FileUpload::make('image')
                                 ->image()
-                                ->directory('categories')
+                                ->directory('brands')
                                 ->maxSize(1024)
                                 ->nullable(),
 
