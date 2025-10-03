@@ -74,7 +74,7 @@ class ProductResource extends Resource
 
                     Section::make('price')->schema([
 
-                        TextInput::make('Price')
+                        TextInput::make('price')
                            ->required()->numeric()->prefix('Ksh.')
 
                     ]),
